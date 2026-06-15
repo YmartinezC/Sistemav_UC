@@ -1,7 +1,7 @@
 
 package Vista;
 
-import Modelo.LoginDAO;
+import Modelo.LoginBD;
 import Modelo.login;
 import java.awt.Desktop;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 public class Login extends javax.swing.JFrame {
     login lg = new login();
-    LoginDAO login = new LoginDAO();
+    LoginBD login = new LoginBD();
     public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
