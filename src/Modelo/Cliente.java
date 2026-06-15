@@ -15,7 +15,7 @@ package Modelo;
  * Contiene los atributos y metodos necesarios para gestionar
  * la informacion de los clientes registrados.
  *
- * @author Jean Marko
+ * @author Jean Marko Ventura - GitFlow
  */
 public class Cliente {
     private int id;
