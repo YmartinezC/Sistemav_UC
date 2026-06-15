@@ -9,6 +9,14 @@ package Modelo;
  *
  * @author Yimmy Martinez
  */
+
+/**
+ * Clase modelo que representa a un Cliente del sistema.
+ * Contiene los atributos y metodos necesarios para gestionar
+ * la informacion de los clientes registrados.
+ *
+ * @author Jean Marko
+ */
 public class Cliente {
     private int id;
     private String dni;
